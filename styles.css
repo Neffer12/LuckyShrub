@@ -1,0 +1,112 @@
+body {
+    background-color: #5F8575;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#article1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2em;
+}
+
+#promo {
+    font-size: 3em;
+    text-align: left;
+    color:antiquewhite;
+    text-decoration: underline;
+}
+
+.head2 {
+    font-size: 2em;
+    text-align: center;
+    background: bisque;
+    border-radius: 1em;
+}
+
+.article2 {
+    border-radius: 2em;
+}
+
+#nursery, #design, #hours {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2em;
+}
+
+header > img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header > p {
+    text-align: center;
+    color: antiquewhite;
+}
+
+nav {
+    background-color: bisque;
+    border-radius: 5em;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+nav button {
+    border: none;
+    background-color: bisque;
+    text-align: center;
+    font-size: 1em;
+    padding: 1em 1em;
+    transition-duration: 0.1s;
+}
+
+nav button:hover {
+    background-color: #5F8575;
+    color: white;
+    border-radius: 1px;
+}
+
+section {
+    display: flex;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+article {
+    flex: 1;
+    margin-left: 3em;
+    margin-right: 3em;
+    transition-duration: 0.1s;
+}
+
+article:hover {
+    box-shadow: 5px 5px bisque;
+}
+
+p {
+    text-align: center;
+    color: antiquewhite;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    color: antiquewhite;
+    flex: 1;
+}
